@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Downloader Mini App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <main class="app">
+    <section class="hero">
+      <div class="badge">Telegram Mini App</div>
+      <h1>Video Downloader</h1>
+      <p>YouTube, Instagram va Pinterest public videolari uchun tezkor yordamchi.</p>
+    </section>
+
+    <section class="card">
+      <label for="linkInput">Video link</label>
+      <div class="input-row">
+        <input id="linkInput" type="url" placeholder="https://youtu.be/..." autocomplete="off" />
+        <button id="pasteBtn" type="button">Paste</button>
+      </div>
+      <button id="sendBtn" class="primary" type="button">Botga yuborish</button>
+      <p id="status" class="status"></p>
+    </section>
+
+    <section class="features">
+      <div>
+        <strong>✅ YouTube</strong>
+        <span>Video va Shorts linklar</span>
+      </div>
+      <div>
+        <strong>✅ Instagram</strong>
+        <span>Public Reel/Post linklar</span>
+      </div>
+      <div>
+        <strong>✅ Pinterest</strong>
+        <span>Public video pinlar</span>
+      </div>
+    </section>
+
+    <p class="note">⚠️ Faqat ruxsat berilgan kontentni yuklang. Private yoki login talab qiladigan linklar ishlamasligi mumkin.</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
