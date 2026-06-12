@@ -1,1 +1,0 @@
-# Yuklovchi_bot
