@@ -25,8 +25,8 @@ from yt_dlp import YoutubeDL
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv('BOT_TOKEN', '').strip()
-MAX_FILE_MB = int(os.getenv('MAX_FILE_MB', '45'))
+BOT_TOKEN = os.getenv('BOT_TOKEN', '7566074255:AAFvyyVaU9iW31_wmlYjMQnUonRs4rm6bVM').strip()
+MAX_FILE_MB = int(os.getenv('MAX_FILE_MB', '1024'))
 DOWNLOAD_DIR = Path(os.getenv('DOWNLOAD_DIR', 'downloads'))
 MINI_APP_URL = os.getenv('MINI_APP_URL', '').strip()
 PORT = int(os.getenv('PORT', '10000'))
